@@ -1,6 +1,6 @@
-function somar(num1: number, num2: number) {
+function sum(num1: number, num2: number) {
   return num1 + num2;
 }
 
-const resultado = somar(2, 3); // nao aceita string
-console.log(resultado);
+const result = sum(1, 2);
+console.log(result); // 3
