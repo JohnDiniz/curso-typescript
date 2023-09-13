@@ -1,17 +1,13 @@
-interface Game {
+const game: {
   id: number;
-  platform: Platform;
+  platform: {
+    id: number;
+    name: string;
+  };
   title: string;
   publisher: string;
-  launch?: string | Date;
-}
-
-interface Platform {
-  id: number;
-  name: string;
-}
-
-const game: Game = {
+  launch?: string | Date; // A data de lançamento pode ser uma string ou um objeto Date (opcional).
+} = {
   id: 1,
   platform: {
     id: 1,
@@ -22,7 +18,7 @@ const game: Game = {
   launch: "2013-06-14", // pode ser um Date. É opcional (para jogos ainda não lançados).
 };
 
-const games: Game[] = [game];
+const games = [game];
 
 function play(game) {
   // runs the game
