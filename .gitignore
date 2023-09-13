@@ -132,3 +132,6 @@ aula-ts-02/pnpm-lock.yaml
 aula-ts-02/pnpm-lock.yaml
 aula-ts-02/pnpm-lock.yaml
 aula-ts-02/pnpm-lock.yaml
+
+# macos
+.DS_Store
