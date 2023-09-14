@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "baseUrl": "src",
+
+    "strict": true, // Habilita verificações estritas para melhor segurança.
+    "noImplicitAny": true, // Evita tipos implícitos "any".
+    "strictPropertyInitialization": true, // Obriga a inicialização de propriedades de classe.
+
+    "target": "ESNext", // Define a versão do ECMAScript que o TypeScript irá compilar.
+    "allowJs": false // Impede a inclusão de arquivos JavaScript.
+
+    // Outras configurações de segurança que você pode considerar:
+    // "noEmitOnError": true,
+    // "isolatedModules": true
+  },
+  "ts-node-esm": {
+    "esm": true
+  }
+}

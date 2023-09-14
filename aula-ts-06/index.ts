@@ -20,6 +20,17 @@ const game: {
 
 const games = [game];
 
+// const games: {
+//   id: number;
+//   platform: {
+//       id: number;
+//       name: string;
+//   };
+//   title: string;
+//   publisher: string;
+//   launch?: string | Date;
+// }[]  = [game];
+
 function play(game) {
   // runs the game
   console.log(game);
